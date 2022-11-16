@@ -1,0 +1,41 @@
+.slider__control {
+  display: none;
+}
+
+@media (max-width: 320px) {
+  .advantages__list {
+    gap: 0;
+  }
+  .slider__wrapper {
+    position: relative;
+  }
+  .slider__slide {
+    display: none;
+  }
+  .slider__slide_active {
+    display: flex;
+  }
+  .slider__control {
+    position: absolute;
+    top: 50%;
+    width: 38px;
+    height: 38px;
+    color: var(--slider-path-color);
+    transform: translateY(50%);
+    cursor: pointer;
+  }
+  .slider__control:hover {
+    color: var(--text-primary-color);
+    box-shadow: 4px 4px 25px rgba(0, 210, 248, 0.05);
+  }
+  .slider__control:hover .slider__control-svg-circle {
+    fill: var(--slider-bg-hover-color);
+  }
+
+  .slider__control-prev {
+    left: 0;
+  }
+  .slider__control-next {
+    right: 0;
+  }
+}
