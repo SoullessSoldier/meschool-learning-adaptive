@@ -1,0 +1,12 @@
+:root {
+  --logo-bg-color: #15a9cb;
+  --text-primary-color: #ffffff;
+  --hero-title-color: rgba(255, 255, 255, 0.86);
+  --hero-subtitle-color: rgba(255, 255, 255, 0.75);
+  --section-text-color: #383a4c;
+  --advantages-bg-color: #23c7ec;
+  --contact-link-color: #4a76a8;
+  --footer-bg-color: #2f324b;
+  --header-contact-underline-link: rgba(255, 255, 255, 0.5);
+  --header-contact-menu-btn-bg-color: #555a7b;
+}
