@@ -16,11 +16,13 @@
     display: flex;
   }
   .slider__control {
+    display: block;
     position: absolute;
     top: 50%;
     width: 38px;
     height: 38px;
     color: var(--slider-path-color);
+    border-radius: 50%;
     transform: translateY(50%);
     cursor: pointer;
   }
