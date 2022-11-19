@@ -153,9 +153,10 @@
     line-height: 17px;
   }
   .advantages__card {
-    max-width: 166px;
+    max-width: 100%;
   }
   .advantages__card-title {
+    max-width: 166px;
     font-size: 18px;
     line-height: 25px;
   }
