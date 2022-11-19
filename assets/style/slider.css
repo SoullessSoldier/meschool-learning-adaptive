@@ -20,11 +20,6 @@
 
     background-color: var(--advantages-bg-color);
   }
-  /*.slider__slide_active {
-    display: flex;
-    height: 100%;
-    width: 100%;
-  }*/
 
   .slider__slide:target {
     z-index: 100;
