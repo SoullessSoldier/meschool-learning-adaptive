@@ -6,18 +6,33 @@
   .advantages__list {
     gap: 0;
   }
-  .slider__wrapper {
+  .slider {
     position: relative;
+    width: 290px;
+    height: 182px;
   }
   .slider__slide {
+    position: absolute;
     display: none;
-  }
-  .slider__slide_active {
     display: flex;
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--advantages-bg-color);
+  }
+  /*.slider__slide_active {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }*/
+
+  .slider__slide:target {
+    z-index: 100;
   }
   .slider__control {
-    display: block;
     position: absolute;
+    display: inline-block;
+
     top: 50%;
     width: 38px;
     height: 38px;
