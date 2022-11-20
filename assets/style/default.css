@@ -16,7 +16,7 @@ body {
   font-style: normal;
 }
 
-button {
+.button {
   display: block;
   margin: 0 auto;
   background-color: var(--logo-bg-color);
