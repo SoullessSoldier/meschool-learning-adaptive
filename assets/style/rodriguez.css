@@ -62,7 +62,6 @@ label[id^="sb-nav-next-"].sb-bignav:hover {
   height: 100%;
   top: 0;
   z-index: 400;
-  opacity: 0;
   transition: opacity 0.125s ease-in;
   -webkit-transition: opacity 0.125s ease-in;
   -moz-transition: opacity 0.125s ease-in;
@@ -75,6 +74,7 @@ label[id^="sb-nav-next-"] {
 }
 
 label[id^="sb-nav-previous-"] {
+  left: 0;
   background: url("http://www.element17.com/images/nav-left.png") center center
     no-repeat;
 }
