@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular-400.woff2") format("woff2");
   font-weight: 400;
@@ -24,7 +24,9 @@
   src: url("../fonts/Roboto-Black-900.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
-}
+}*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
 
 @font-face {
   font-family: Pacifico;

@@ -1,4 +1,4 @@
-.contact {
+.contact .container {
   padding: 70px 0;
   background: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
     url(../images/bg_contact.jpg) center/cover no-repeat;
@@ -18,14 +18,14 @@
 }
 
 .contact__form {
-  margin: 0 auto 50px;
+  margin: 0 auto 52px;
   max-width: 423px;
 }
 
 .contact__form-input {
-  margin-bottom: 21px;
+  margin-bottom: 19px;
   width: 100%;
-  padding: 9px 25px;
+  padding: 8px 23px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
@@ -36,11 +36,11 @@
 }
 
 .contact__form-input:last-of-type {
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 
 .contact__form-btn {
-  padding: 11px 38px;
+  padding: 12px 41px;
   font-size: 20px;
   line-height: 23px;
   color: var(--text-primary-color);

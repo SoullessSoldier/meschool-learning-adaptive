@@ -1,5 +1,6 @@
-.footer {
-  padding: 45px 0;
+.footer .container {
+  padding-top: 45px;
+  padding-bottom: 41px;
   background-color: var(--footer-bg-color);
   color: var(--text-primary-color);
 }
@@ -26,9 +27,14 @@
 }
 
 .footer__copyright {
+  padding-bottom: 4px;
   max-width: 127px;
   font-size: 12px;
   line-height: 17px;
+}
+
+.footer .callme {
+  padding-bottom: 5px;
 }
 
 @media (max-width: 1024px) {

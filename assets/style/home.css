@@ -1,11 +1,12 @@
-.header {
-  padding: 40px 0 120px;
+.header .container {
+  padding-top: 40px;
+  padding-bottom: 120px;
   background: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
     url(../images/bg_home.jpg) center/cover no-repeat;
 }
 
 .header__top {
-  margin-bottom: 120px;
+  margin-bottom: 115px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,12 +15,12 @@
 
 .hero {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 990px;
 }
 
 .hero__title {
   margin-bottom: 35px;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 52px;
   line-height: 61px;
   color: var(--hero-title-color);
@@ -27,15 +28,17 @@
 }
 
 .hero__subtitle {
-  margin-bottom: 90px;
+  margin-bottom: 88px;
   font-size: 22px;
-  line-height: 31px;
+  font-weight: 400;
+  line-height: 30.94px;
   color: var(--hero-subtitle-color);
   text-align: center;
 }
 
 .hero__details {
   padding: 12px 48px;
+  font-family: inherit;
   font-weight: 500;
   font-size: 20px;
   line-height: 23px;

@@ -34,7 +34,7 @@
   text-decoration: underline;
   -webkit-text-decoration-color: var(--header-contact-underline-link);
   text-decoration-color: var(--header-contact-underline-link);
-  text-underline-offset: 7px;
+  text-underline-offset: 3px;
 }
 
 @media (max-width: 1024px) {
