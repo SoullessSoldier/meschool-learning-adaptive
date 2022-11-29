@@ -1,4 +1,4 @@
-.header .container {
+.header {
   padding-top: 40px;
   padding-bottom: 120px;
   background: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)),
@@ -47,10 +47,14 @@
 
 @media (max-width: 1024px) {
   .header {
-    padding: 26px 0 70px;
+    padding: 26px 0 71px;
   }
   .header__top {
-    margin-bottom: 70px;
+    margin-bottom: 66px;
+  }
+
+  .header .callme {
+    padding-bottom: 10px;
   }
 
   .hero {
@@ -79,7 +83,7 @@
     padding: 15px 0 65px;
   }
   .header__top {
-    margin-bottom: 65px;
+    margin-bottom: 63px;
   }
 
   .hero__title {
@@ -87,8 +91,9 @@
     line-height: 23px;
   }
   .hero__subtitle {
+    margin-bottom: 55px;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 19px;
     display: -webkit-box;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
@@ -96,7 +101,7 @@
     text-overflow: ellipsis;
   }
   .hero__details {
-    padding: 9px 28px;
+    padding: 9px 38px;
     font-size: 16px;
     line-height: 19px;
   }
